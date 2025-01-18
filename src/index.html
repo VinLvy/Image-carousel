@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
 </head>
 <body>
-    <h1>Hello Webpack!</h1>
+  <div class="carousel">
+    <div class="slides"></div>
+    <button class="arrow left" onclick="prevSlide()">&#9664;</button>
+    <button class="arrow right" onclick="nextSlide()">&#9654;</button>
+    <div class="dots">
+      <span class="dot" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+  </div>
+  <script src="bundle.js"></script> <!-- Webpack output -->
 </body>
 </html>
