@@ -1,7 +1,5 @@
 import './style.css';
 
-import './style.css'; // Ensure styles are applied
-
 import image1 from './images/20241115210556.png';
 import image2 from './images/20241115210607.png';
 import image3 from './images/20241115210628.png';
@@ -13,8 +11,6 @@ slides.innerHTML = `
   <img src="${image2}" alt="Image 2">
   <img src="${image3}" alt="Image 3">
 `;
-
-
 
 const dots = document.querySelectorAll('.dot');
 let currentIndex = 0;
