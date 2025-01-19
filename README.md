@@ -1,6 +1,4 @@
 # Image-carousel
- 
-# Image Carousel Project
 
 This project implements a reusable image carousel using JavaScript, CSS, and HTML. This README file provides an overview of the image carousel project, its functionality, and the structure of the provided code.
 
